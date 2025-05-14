@@ -1,0 +1,33 @@
+@use "../shared/styles/variables";
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.menu-container {
+  // border: 1px dashed white;
+  width: 360px;
+}
+
+.pitch-container {
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .menu-container,
+  .pitch-container {
+    width: 100%;
+  }
+}

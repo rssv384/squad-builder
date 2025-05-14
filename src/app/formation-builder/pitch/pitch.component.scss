@@ -1,0 +1,84 @@
+@use "../../shared/styles/variables";
+
+.pitch {
+  width: 900px;
+  max-width: 900px;
+  height: 768px;
+  max-height: 768px;
+  background-color: variables.$bg-dark;
+  border-radius: 0.5rem;
+  padding: 0;
+  position: relative;
+
+  .absolute {
+    position: absolute;
+  }
+}
+
+.pitch-bg {
+  width: 100%;
+  max-height: 768px;
+  object-fit: fill;
+  opacity: 0.5;
+}
+
+.formation-433 {
+  #player1 {
+    top: 77%;
+    left: 43%;
+  }
+
+  #player2 {
+    top: 60%;
+    left: 79%;
+  }
+  #player3 {
+    top: 63%;
+    left: 59%;
+  }
+  #player4 {
+    top: 63%;
+    left: 27%;
+  }
+  #player5 {
+    top: 60%;
+    left: 7%;
+  }
+  #player6 {
+    top: 38%;
+    left: 63%;
+  }
+  #player7 {
+    top: 38%;
+    left: 43%;
+  }
+  #player8 {
+    top: 38%;
+    left: 23%;
+  }
+  #player9 {
+    top: 10%;
+    left: 73%;
+  }
+
+  #player10 {
+    top: 7%;
+    left: 43%;
+  }
+
+  #player11 {
+    top: 10%;
+    left: 13%;
+  }
+}
+
+@media (max-width: 992px) {
+  .pitch {
+    width: 768px;
+  }
+
+  // .pitch-bg {
+  //   width: 100%;
+  //   // height: 100%;
+  // }
+}

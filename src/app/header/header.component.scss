@@ -1,0 +1,27 @@
+@use "../shared/styles/variables";
+
+header {
+  height: variables.$header-height;
+  width: 100%;
+  background-color: variables.$bg-dark;
+  padding: 1rem 0;
+  border-bottom: thin solid variables.$highlight-color;
+  text-align: center;
+
+  // Fixed position, always on top
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 2rem;
+    margin-top: 0.5rem;
+  }
+}

@@ -1,0 +1,16 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-player-card',
+  imports: [],
+  templateUrl: './player-card.component.html',
+  styleUrl: './player-card.component.scss',
+})
+export class PlayerCardComponent {
+  player = {
+    name: 'Johan Cruyff',
+    displayName: 'Cruyff',
+    rating: 96,
+    position: 'CF',
+  };
+}
