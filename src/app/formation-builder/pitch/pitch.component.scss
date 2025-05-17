@@ -22,600 +22,448 @@
   opacity: 0.5;
 }
 
-.formation-352 {
+// === REPEATED POSITIONS ===
+// GK WHEN PLAYING 3 OR 5 AT THE BACK
+.formation-352,
+.formation-3412,
+.formation-3421,
+.formation-343,
+.formation-5212,
+.formation-523,
+.formation-532,
+.formation-541 {
   #player1 {
     top: 80%;
     left: 43%;
   }
+}
 
+// DEFENDERS WHEN PLAYING 3 AT THE BACK
+.formation-352,
+.formation-3412,
+.formation-3421,
+.formation-343 {
+  // RIGHT CB
   #player2 {
     top: 60%;
     left: 66%;
   }
+  // CENTRAL CB
   #player3 {
     top: 60%;
     left: 43%;
   }
+  // LEFT CB
   #player4 {
     top: 60%;
     left: 20%;
   }
+}
+
+// GK AND DEFENDERS WHEN PLAYING 4 AT THE BACK
+.formation-41212-narrow,
+.formation-41212-diamond,
+.formation-4132,
+.formation-4141,
+.formation-4213,
+.formation-4222,
+.formation-4231,
+.formation-424,
+.formation-4312,
+.formation-4321,
+.formation-433,
+.formation-433-def,
+.formation-433-atk,
+.formation-4411,
+.formation-442,
+.formation-451 {
+  #player1 {
+    top: 77%;
+    left: 43%;
+  }
+  // RB
+  #player2 {
+    top: 60%;
+    left: 79%;
+  }
+  // RIGHT CB
+  #player3 {
+    top: 63%;
+    left: 59%;
+  }
+  // LEFT CB
+  #player4 {
+    top: 63%;
+    left: 27%;
+  }
+  // LB
+  #player5 {
+    top: 60%;
+    left: 7%;
+  }
+}
+
+// DEFENDERS WHEN PLAYING 5 AT THE BACK
+.formation-5212,
+.formation-523,
+.formation-532,
+.formation-541 {
+  // RB
+  #player2 {
+    top: 55%;
+    left: 81%;
+  }
+  // RIGHT CB
+  #player3 {
+    top: 60%;
+    left: 63%;
+  }
+  // CENTRAL CB
+  #player4 {
+    top: 60%;
+    left: 43%;
+  }
+  // LEFT CB
+  #player5 {
+    top: 60%;
+    left: 23%;
+  }
+  // LB
+  #player6 {
+    top: 55%;
+    left: 5%;
+  }
+}
+
+// MIDFIELD 4 WHEN PLAYING 3 AT THE BACK
+.formation-3412,
+.formation-3421,
+.formation-343 {
+  // RM
+  #player5 {
+    top: 35%;
+    left: 79%;
+  }
+  // RIGHT CM
+  #player6 {
+    top: 40%;
+    left: 57%;
+  }
+  // LEFT CM
+  #player7 {
+    top: 40%;
+    left: 29%;
+  }
+  // LM
+  #player8 {
+    top: 35%;
+    left: 7%;
+  }
+}
+
+// CF WHEN PLAYING 1 STRIKER UP FRONT WITH NO WINGERS
+.formation-3421,
+.formation-4141,
+.formation-4231,
+.formation-4321,
+.formation-4411,
+.formation-451,
+.formation-541 {
+  #player11 {
+    top: 7%;
+    left: 43%;
+  }
+}
+
+// CF WHEN PLAYING 2 STRIKERS UP FRONT
+.formation-3412,
+.formation-352,
+.formation-41212-narrow,
+.formation-41212-diamond,
+.formation-4132,
+.formation-4222,
+.formation-4312,
+.formation-442,
+.formation-5212,
+.formation-532 {
+  // RIGHT CF
+  #player10 {
+    top: 7%;
+    left: 59%;
+  }
+  // LEFT CF
+  #player11 {
+    top: 7%;
+    left: 27%;
+  }
+}
+
+// WINGERS AND CF WHEN PLAYING 3 UP FRONT
+.formation-343,
+.formation-4213,
+.formation-433,
+.formation-433-def,
+.formation-433-atk,
+.formation-523 {
+  // RW
+  #player9 {
+    top: 10%;
+    left: 73%;
+  }
+  // CF
+  #player10 {
+    top: 7%;
+    left: 43%;
+  }
+  // LW
+  #player11 {
+    top: 10%;
+    left: 13%;
+  }
+}
+
+.formation-352 {
+  // RM
   #player5 {
     top: 35%;
     left: 81%;
   }
+  // RIGHT CM
   #player6 {
     top: 38%;
     left: 63%;
   }
+  // DM
   #player7 {
     top: 40%;
     left: 43%;
   }
+  // LEFT CM
   #player8 {
     top: 38%;
     left: 23%;
   }
+  // LM
   #player9 {
     top: 35%;
     left: 5%;
   }
-
-  #player10 {
-    top: 7%;
-    left: 59%;
-  }
-
-  #player11 {
-    top: 7%;
-    left: 27%;
-  }
 }
 
 .formation-3412 {
-  #player1 {
-    top: 80%;
-    left: 43%;
-  }
-
-  #player2 {
-    top: 60%;
-    left: 66%;
-  }
-  #player3 {
-    top: 60%;
-    left: 43%;
-  }
-  #player4 {
-    top: 60%;
-    left: 20%;
-  }
-  #player5 {
-    top: 35%;
-    left: 79%;
-  }
-  #player6 {
-    top: 40%;
-    left: 57%;
-  }
-  #player7 {
-    top: 40%;
-    left: 29%;
-  }
-  #player8 {
-    top: 35%;
-    left: 7%;
-  }
+  // AM
   #player9 {
     top: 20%;
     left: 43%;
-  }
-
-  #player10 {
-    top: 7%;
-    left: 59%;
-  }
-
-  #player11 {
-    top: 7%;
-    left: 27%;
   }
 }
 
 .formation-3421 {
-  #player1 {
-    top: 80%;
-    left: 43%;
-  }
-
-  #player2 {
-    top: 60%;
-    left: 66%;
-  }
-  #player3 {
-    top: 60%;
-    left: 43%;
-  }
-  #player4 {
-    top: 60%;
-    left: 20%;
-  }
-  #player5 {
-    top: 35%;
-    left: 79%;
-  }
-  #player6 {
-    top: 40%;
-    left: 57%;
-  }
-  #player7 {
-    top: 40%;
-    left: 29%;
-  }
-  #player8 {
-    top: 35%;
-    left: 7%;
-  }
+  // RIGHT AM
   #player9 {
     top: 20%;
     left: 23%;
   }
-
+  // LEFT AM
   #player10 {
     top: 20%;
     left: 63%;
-  }
-
-  #player11 {
-    top: 7%;
-    left: 43%;
-  }
-}
-
-.formation-343 {
-  #player1 {
-    top: 80%;
-    left: 43%;
-  }
-
-  #player2 {
-    top: 60%;
-    left: 66%;
-  }
-  #player3 {
-    top: 60%;
-    left: 43%;
-  }
-  #player4 {
-    top: 60%;
-    left: 20%;
-  }
-  #player5 {
-    top: 35%;
-    left: 79%;
-  }
-  #player6 {
-    top: 40%;
-    left: 57%;
-  }
-  #player7 {
-    top: 40%;
-    left: 29%;
-  }
-  #player8 {
-    top: 35%;
-    left: 7%;
-  }
-  #player9 {
-    top: 10%;
-    left: 73%;
-  }
-
-  #player10 {
-    top: 7%;
-    left: 43%;
-  }
-
-  #player11 {
-    top: 10%;
-    left: 13%;
   }
 }
 
 .formation-41212-narrow {
-  #player1 {
-    top: 77%;
-    left: 43%;
-  }
-
-  #player2 {
-    top: 60%;
-    left: 79%;
-  }
-  #player3 {
-    top: 63%;
-    left: 59%;
-  }
-  #player4 {
-    top: 63%;
-    left: 27%;
-  }
-  #player5 {
-    top: 60%;
-    left: 7%;
-  }
+  // DM
   #player6 {
     top: 47%;
     left: 43%;
   }
+  // RIGHT CM
   #player7 {
     top: 33%;
     left: 61%;
   }
+  // LEFT CM
   #player8 {
     top: 33%;
     left: 25%;
   }
+  // AM
   #player9 {
     top: 20%;
     left: 43%;
-  }
-
-  #player10 {
-    top: 7%;
-    left: 59%;
-  }
-
-  #player11 {
-    top: 7%;
-    left: 27%;
   }
 }
 
 .formation-41212-diamond {
-  #player1 {
-    top: 77%;
-    left: 43%;
-  }
-
-  #player2 {
-    top: 60%;
-    left: 79%;
-  }
-  #player3 {
-    top: 63%;
-    left: 59%;
-  }
-  #player4 {
-    top: 63%;
-    left: 27%;
-  }
-  #player5 {
-    top: 60%;
-    left: 7%;
-  }
+  // DM
   #player6 {
     top: 47%;
     left: 43%;
   }
+  // RM
   #player7 {
     top: 33%;
     left: 76%;
   }
+  // LM
   #player8 {
     top: 33%;
     left: 10%;
   }
+  // AM
   #player9 {
     top: 20%;
     left: 43%;
   }
-
-  #player10 {
-    top: 7%;
-    left: 59%;
-  }
-
-  #player11 {
-    top: 7%;
-    left: 27%;
-  }
 }
 
 .formation-4132 {
-  #player1 {
-    top: 77%;
-    left: 43%;
-  }
-
-  #player2 {
-    top: 60%;
-    left: 79%;
-  }
-  #player3 {
-    top: 63%;
-    left: 59%;
-  }
-  #player4 {
-    top: 63%;
-    left: 27%;
-  }
-  #player5 {
-    top: 60%;
-    left: 7%;
-  }
+  // DM
   #player6 {
     top: 50%;
     left: 43%;
   }
+  // RM
   #player7 {
     top: 27%;
     left: 73%;
   }
+  // CM
   #player8 {
     top: 30%;
     left: 43%;
   }
+  // LM
   #player9 {
     top: 27%;
     left: 13%;
-  }
-
-  #player10 {
-    top: 7%;
-    left: 63%;
-  }
-
-  #player11 {
-    top: 7%;
-    left: 23%;
   }
 }
 
 .formation-4141 {
-  #player1 {
-    top: 77%;
-    left: 43%;
-  }
-
-  #player2 {
-    top: 60%;
-    left: 79%;
-  }
-  #player3 {
-    top: 63%;
-    left: 59%;
-  }
-  #player4 {
-    top: 63%;
-    left: 27%;
-  }
-  #player5 {
-    top: 60%;
-    left: 7%;
-  }
+  // DM
   #player6 {
     top: 47%;
     left: 43%;
   }
+  // RM
   #player7 {
     top: 27%;
     left: 79%;
   }
+  // RIGHT AM
   #player8 {
     top: 27%;
     left: 56%;
   }
+  // LEFT AM
   #player9 {
     top: 27%;
     left: 30%;
   }
-
+  // LM
   #player10 {
     top: 27%;
     left: 7%;
-  }
-
-  #player11 {
-    top: 7%;
-    left: 43%;
   }
 }
 
 .formation-4213 {
-  #player1 {
-    top: 77%;
-    left: 43%;
-  }
-
-  #player2 {
-    top: 60%;
-    left: 79%;
-  }
-  #player3 {
-    top: 63%;
-    left: 59%;
-  }
-  #player4 {
-    top: 63%;
-    left: 27%;
-  }
-  #player5 {
-    top: 60%;
-    left: 7%;
-  }
+  // RIGHT DM
   #player6 {
     top: 43%;
     left: 59%;
   }
+  // LEFT DM
   #player7 {
     top: 43%;
     left: 27%;
   }
+  // AM
   #player8 {
     top: 27%;
     left: 43%;
-  }
-  #player9 {
-    top: 10%;
-    left: 73%;
-  }
-
-  #player10 {
-    top: 7%;
-    left: 43%;
-  }
-
-  #player11 {
-    top: 10%;
-    left: 13%;
   }
 }
 
 .formation-4222 {
-  #player1 {
-    top: 77%;
-    left: 43%;
-  }
-
-  #player2 {
-    top: 60%;
-    left: 79%;
-  }
-  #player3 {
-    top: 63%;
-    left: 59%;
-  }
-  #player4 {
-    top: 63%;
-    left: 27%;
-  }
-  #player5 {
-    top: 60%;
-    left: 7%;
-  }
+  // RM
   #player6 {
     top: 43%;
     left: 59%;
   }
+  // RIGHT CM
   #player7 {
     top: 43%;
     left: 27%;
   }
+  // LEFT CM
   #player8 {
     top: 25%;
     left: 71%;
   }
+  // LM
   #player9 {
     top: 25%;
     left: 15%;
   }
-
-  #player10 {
-    top: 7%;
-    left: 59%;
-  }
-
-  #player11 {
-    top: 7%;
-    left: 27%;
-  }
 }
 
 .formation-4231 {
-  #player1 {
-    top: 77%;
-    left: 43%;
-  }
-
-  #player2 {
-    top: 60%;
-    left: 79%;
-  }
-  #player3 {
-    top: 63%;
-    left: 59%;
-  }
-  #player4 {
-    top: 63%;
-    left: 27%;
-  }
-  #player5 {
-    top: 60%;
-    left: 7%;
-  }
+  // RIGHT DM
   #player6 {
     top: 43%;
     left: 59%;
   }
+  // LEFT DM
   #player7 {
     top: 43%;
     left: 27%;
   }
+  // RM
   #player8 {
     top: 25%;
     left: 79%;
   }
+  // AM
   #player9 {
     top: 27%;
     left: 43%;
   }
-
+  // LM
   #player10 {
     top: 25%;
     left: 7%;
   }
-
-  #player11 {
-    top: 7%;
-    left: 43%;
-  }
 }
 
 .formation-424 {
-  #player1 {
-    top: 77%;
-    left: 43%;
-  }
-
-  #player2 {
-    top: 60%;
-    left: 79%;
-  }
-  #player3 {
-    top: 63%;
-    left: 59%;
-  }
-  #player4 {
-    top: 63%;
-    left: 27%;
-  }
-  #player5 {
-    top: 60%;
-    left: 7%;
-  }
+  // RIGHT CM
   #player6 {
     top: 35%;
     left: 59%;
   }
+  // LEFT CM
   #player7 {
     top: 35%;
     left: 27%;
   }
+  // RW
   #player8 {
     top: 15%;
     left: 76%;
   }
+  // RIGHT CF
   #player9 {
     top: 7%;
     left: 59%;
   }
-
+  // LEFT CF
   #player10 {
     top: 7%;
     left: 27%;
   }
-
+  // LW
   #player11 {
     top: 15%;
     left: 10%;
@@ -623,601 +471,258 @@
 }
 
 .formation-4312 {
-  #player1 {
-    top: 77%;
-    left: 43%;
-  }
-
-  #player2 {
-    top: 60%;
-    left: 79%;
-  }
-  #player3 {
-    top: 63%;
-    left: 59%;
-  }
-  #player4 {
-    top: 63%;
-    left: 27%;
-  }
-  #player5 {
-    top: 60%;
-    left: 7%;
-  }
+  // RIGHT CM
   #player6 {
     top: 38%;
     left: 63%;
   }
+  // CENTRAL CM
   #player7 {
     top: 43%;
     left: 43%;
   }
+  // LEFT CM
   #player8 {
     top: 38%;
     left: 23%;
   }
+  // AM
   #player9 {
     top: 20%;
     left: 43%;
   }
-
-  #player10 {
-    top: 7%;
-    left: 59%;
-  }
-
-  #player11 {
-    top: 7%;
-    left: 27%;
-  }
 }
 
 .formation-4321 {
-  #player1 {
-    top: 77%;
-    left: 43%;
-  }
-
-  #player2 {
-    top: 60%;
-    left: 79%;
-  }
-  #player3 {
-    top: 63%;
-    left: 59%;
-  }
-  #player4 {
-    top: 63%;
-    left: 27%;
-  }
-  #player5 {
-    top: 60%;
-    left: 7%;
-  }
+  // RIGHT CM
   #player6 {
     top: 38%;
     left: 63%;
   }
+  // CENTRAL CM
   #player7 {
     top: 43%;
     left: 43%;
   }
+  // LEFT CM
   #player8 {
     top: 38%;
     left: 23%;
   }
+  // RIGHT AM
   #player9 {
     top: 17%;
     left: 25%;
   }
-
+  // LEFT AM
   #player10 {
     top: 17%;
     left: 61%;
   }
-
-  #player11 {
-    top: 7%;
-    left: 43%;
-  }
 }
 
 .formation-433 {
-  #player1 {
-    top: 77%;
-    left: 43%;
-  }
-
-  #player2 {
-    top: 60%;
-    left: 79%;
-  }
-  #player3 {
-    top: 63%;
-    left: 59%;
-  }
-  #player4 {
-    top: 63%;
-    left: 27%;
-  }
-  #player5 {
-    top: 60%;
-    left: 7%;
-  }
+  // RIGHT CM
   #player6 {
     top: 38%;
     left: 63%;
   }
+  // CENTRAL CM
   #player7 {
     top: 38%;
     left: 43%;
   }
+  // LEFT CM
   #player8 {
     top: 38%;
     left: 23%;
-  }
-  #player9 {
-    top: 10%;
-    left: 73%;
-  }
-
-  #player10 {
-    top: 7%;
-    left: 43%;
-  }
-
-  #player11 {
-    top: 10%;
-    left: 13%;
   }
 }
 
 .formation-433-def {
-  #player1 {
-    top: 77%;
-    left: 43%;
-  }
-
-  #player2 {
-    top: 60%;
-    left: 79%;
-  }
-  #player3 {
-    top: 63%;
-    left: 59%;
-  }
-  #player4 {
-    top: 63%;
-    left: 27%;
-  }
-  #player5 {
-    top: 60%;
-    left: 7%;
-  }
+  // RIGHT CM
   #player6 {
     top: 47%;
     left: 43%;
   }
+  // DM
   #player7 {
     top: 38%;
     left: 63%;
   }
+  // LEFT CM
   #player8 {
     top: 38%;
     left: 23%;
-  }
-  #player9 {
-    top: 10%;
-    left: 73%;
-  }
-
-  #player10 {
-    top: 7%;
-    left: 43%;
-  }
-
-  #player11 {
-    top: 10%;
-    left: 13%;
   }
 }
 
 .formation-433-atk {
-  #player1 {
-    top: 77%;
-    left: 43%;
-  }
-
-  #player2 {
-    top: 60%;
-    left: 79%;
-  }
-  #player3 {
-    top: 63%;
-    left: 59%;
-  }
-  #player4 {
-    top: 63%;
-    left: 27%;
-  }
-  #player5 {
-    top: 60%;
-    left: 7%;
-  }
+  // DM
   #player6 {
     top: 47%;
     left: 43%;
   }
+  // RIGHT AM
   #player7 {
     top: 30%;
     left: 63%;
   }
+  // LEFT AM
   #player8 {
     top: 30%;
     left: 23%;
   }
-  #player9 {
-    top: 10%;
-    left: 73%;
-  }
-
-  #player10 {
-    top: 7%;
-    left: 43%;
-  }
-
-  #player11 {
-    top: 10%;
-    left: 13%;
-  }
 }
 
 .formation-4411 {
-  #player1 {
-    top: 77%;
-    left: 43%;
-  }
-
-  #player2 {
-    top: 60%;
-    left: 79%;
-  }
-  #player3 {
-    top: 63%;
-    left: 59%;
-  }
-  #player4 {
-    top: 63%;
-    left: 27%;
-  }
-  #player5 {
-    top: 60%;
-    left: 7%;
-  }
+  // RM
   #player6 {
     top: 35%;
     left: 79%;
   }
+  // RIGHT CM
   #player7 {
     top: 43%;
     left: 29%;
   }
+  // LEFT CM
   #player8 {
     top: 43%;
     left: 57%;
   }
+  // LM
   #player9 {
     top: 35%;
     left: 7%;
   }
-
+  // AM
   #player10 {
     top: 27%;
-    left: 43%;
-  }
-
-  #player11 {
-    top: 7%;
     left: 43%;
   }
 }
 
 .formation-442 {
-  #player1 {
-    top: 77%;
-    left: 43%;
-  }
-
-  #player2 {
-    top: 60%;
-    left: 79%;
-  }
-  #player3 {
-    top: 63%;
-    left: 59%;
-  }
-  #player4 {
-    top: 63%;
-    left: 27%;
-  }
-  #player5 {
-    top: 60%;
-    left: 7%;
-  }
+  // RM
   #player6 {
     top: 35%;
     left: 79%;
   }
+  // RIGHT CM
   #player7 {
     top: 38%;
     left: 29%;
   }
+  // LEFT CM
   #player8 {
     top: 38%;
     left: 57%;
   }
+  // LM
   #player9 {
     top: 35%;
     left: 7%;
-  }
-
-  #player10 {
-    top: 7%;
-    left: 59%;
-  }
-
-  #player11 {
-    top: 7%;
-    left: 27%;
   }
 }
 
 .formation-451 {
-  #player1 {
-    top: 77%;
-    left: 43%;
-  }
-
-  #player2 {
-    top: 60%;
-    left: 79%;
-  }
-  #player3 {
-    top: 63%;
-    left: 59%;
-  }
-  #player4 {
-    top: 63%;
-    left: 27%;
-  }
-  #player5 {
-    top: 60%;
-    left: 5%;
-  }
+  // RM
   #player6 {
     top: 35%;
     left: 81%;
   }
+  // RIGHT CM
   #player7 {
     top: 38%;
     left: 63%;
   }
+  // DM
   #player8 {
     top: 43%;
     left: 43%;
   }
+  // LEFT CM
   #player9 {
     top: 38%;
     left: 23%;
   }
+  // LM
   #player10 {
     top: 35%;
     left: 5%;
   }
-
-  #player11 {
-    top: 7%;
-    left: 43%;
-  }
 }
 
 .formation-5212 {
-  #player1 {
-    top: 80%;
-    left: 43%;
-  }
-
-  #player2 {
-    top: 55%;
-    left: 81%;
-  }
-  #player3 {
-    top: 60%;
-    left: 63%;
-  }
-  #player4 {
-    top: 60%;
-    left: 43%;
-  }
-  #player5 {
-    top: 60%;
-    left: 23%;
-  }
-  #player6 {
-    top: 55%;
-    left: 5%;
-  }
+  // RIGHT CM
   #player7 {
     top: 38%;
     left: 61%;
   }
+  // LEFT CM
   #player8 {
     top: 38%;
     left: 25%;
   }
+  // AM
   #player9 {
     top: 25%;
     left: 43%;
   }
-
-  #player10 {
-    top: 7%;
-    left: 59%;
-  }
-
-  #player11 {
-    top: 7%;
-    left: 27%;
-  }
 }
 
 .formation-523 {
-  #player1 {
-    top: 80%;
-    left: 43%;
-  }
-
-  #player2 {
-    top: 55%;
-    left: 81%;
-  }
-  #player3 {
-    top: 60%;
-    left: 63%;
-  }
-  #player4 {
-    top: 60%;
-    left: 43%;
-  }
-  #player5 {
-    top: 60%;
-    left: 23%;
-  }
-  #player6 {
-    top: 55%;
-    left: 5%;
-  }
+  // RIGHT CM
   #player7 {
     top: 33%;
     left: 61%;
   }
+  // LEFT CM
   #player8 {
     top: 33%;
     left: 25%;
   }
-  #player9 {
-    top: 10%;
-    left: 73%;
-  }
-
-  #player10 {
-    top: 7%;
-    left: 43%;
-  }
-
-  #player11 {
-    top: 10%;
-    left: 13%;
-  }
 }
 
 .formation-532 {
-  #player1 {
-    top: 80%;
-    left: 43%;
-  }
-
-  #player2 {
-    top: 55%;
-    left: 81%;
-  }
-  #player3 {
-    top: 60%;
-    left: 63%;
-  }
-  #player4 {
-    top: 60%;
-    left: 43%;
-  }
-  #player5 {
-    top: 60%;
-    left: 23%;
-  }
-  #player6 {
-    top: 55%;
-    left: 5%;
-  }
+  // RIGHT CM
   #player7 {
     top: 33%;
     left: 63%;
   }
+  // DM
   #player8 {
     top: 38%;
     left: 43%;
   }
+  // LEFT CM
   #player9 {
     top: 33%;
     left: 23%;
-  }
-
-  #player10 {
-    top: 7%;
-    left: 59%;
-  }
-
-  #player11 {
-    top: 7%;
-    left: 27%;
   }
 }
 
 .formation-541 {
-  #player1 {
-    top: 80%;
-    left: 43%;
-  }
-
-  #player2 {
-    top: 55%;
-    left: 81%;
-  }
-  #player3 {
-    top: 60%;
-    left: 63%;
-  }
-  #player4 {
-    top: 60%;
-    left: 43%;
-  }
-  #player5 {
-    top: 60%;
-    left: 23%;
-  }
-  #player6 {
-    top: 55%;
-    left: 5%;
-  }
+  // RM
   #player7 {
     top: 30%;
     left: 79%;
   }
+  // RIGHT CM
   #player8 {
     top: 33%;
     left: 56%;
   }
+  // LEFT CM
   #player9 {
     top: 33%;
     left: 30%;
   }
-
+  // LM
   #player10 {
     top: 30%;
     left: 7%;
-  }
-
-  #player11 {
-    top: 7%;
-    left: 43%;
   }
 }
 
@@ -1225,9 +730,4 @@
   .pitch {
     width: 768px;
   }
-
-  // .pitch-bg {
-  //   width: 100%;
-  //   // height: 100%;
-  // }
 }
