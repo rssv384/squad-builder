@@ -1,10 +1,17 @@
 <div class="container">
   <div class="menu-container">
     <!-- MENU -->
-    <p>MENU AREA</p>
+    <h3>FORMATION</h3>
+    <p>
+      <select (change)="onFormationChange(formation.value)" #formation>
+        @for (formation of allFormations; track formation.id) {
+          <option [value]="formation.id">{{ formation.name }}</option>
+        }
+      </select>
+    </p>
   </div>
   <div class="pitch-container">
     <!-- FORMATION VIEWER -->
-    <app-pitch></app-pitch>
+    <app-pitch [formation]="selectedFormation()"></app-pitch>
   </div>
 </div>

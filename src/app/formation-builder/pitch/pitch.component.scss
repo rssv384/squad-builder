@@ -6,13 +6,13 @@
   height: 768px;
   max-height: 768px;
   background-color: variables.$bg-dark;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   padding: 0;
   position: relative;
+}
 
-  .absolute {
-    position: absolute;
-  }
+.absolute {
+  position: absolute;
 }
 
 .pitch-bg {
@@ -20,6 +20,706 @@
   max-height: 768px;
   object-fit: fill;
   opacity: 0.5;
+}
+
+.formation-352 {
+  #player1 {
+    top: 80%;
+    left: 43%;
+  }
+
+  #player2 {
+    top: 60%;
+    left: 66%;
+  }
+  #player3 {
+    top: 60%;
+    left: 43%;
+  }
+  #player4 {
+    top: 60%;
+    left: 20%;
+  }
+  #player5 {
+    top: 35%;
+    left: 81%;
+  }
+  #player6 {
+    top: 38%;
+    left: 63%;
+  }
+  #player7 {
+    top: 40%;
+    left: 43%;
+  }
+  #player8 {
+    top: 38%;
+    left: 23%;
+  }
+  #player9 {
+    top: 35%;
+    left: 5%;
+  }
+
+  #player10 {
+    top: 7%;
+    left: 59%;
+  }
+
+  #player11 {
+    top: 7%;
+    left: 27%;
+  }
+}
+
+.formation-3412 {
+  #player1 {
+    top: 80%;
+    left: 43%;
+  }
+
+  #player2 {
+    top: 60%;
+    left: 66%;
+  }
+  #player3 {
+    top: 60%;
+    left: 43%;
+  }
+  #player4 {
+    top: 60%;
+    left: 20%;
+  }
+  #player5 {
+    top: 35%;
+    left: 79%;
+  }
+  #player6 {
+    top: 40%;
+    left: 57%;
+  }
+  #player7 {
+    top: 40%;
+    left: 29%;
+  }
+  #player8 {
+    top: 35%;
+    left: 7%;
+  }
+  #player9 {
+    top: 20%;
+    left: 43%;
+  }
+
+  #player10 {
+    top: 7%;
+    left: 59%;
+  }
+
+  #player11 {
+    top: 7%;
+    left: 27%;
+  }
+}
+
+.formation-3421 {
+  #player1 {
+    top: 80%;
+    left: 43%;
+  }
+
+  #player2 {
+    top: 60%;
+    left: 66%;
+  }
+  #player3 {
+    top: 60%;
+    left: 43%;
+  }
+  #player4 {
+    top: 60%;
+    left: 20%;
+  }
+  #player5 {
+    top: 35%;
+    left: 79%;
+  }
+  #player6 {
+    top: 40%;
+    left: 57%;
+  }
+  #player7 {
+    top: 40%;
+    left: 29%;
+  }
+  #player8 {
+    top: 35%;
+    left: 7%;
+  }
+  #player9 {
+    top: 20%;
+    left: 23%;
+  }
+
+  #player10 {
+    top: 20%;
+    left: 63%;
+  }
+
+  #player11 {
+    top: 7%;
+    left: 43%;
+  }
+}
+
+.formation-343 {
+  #player1 {
+    top: 80%;
+    left: 43%;
+  }
+
+  #player2 {
+    top: 60%;
+    left: 66%;
+  }
+  #player3 {
+    top: 60%;
+    left: 43%;
+  }
+  #player4 {
+    top: 60%;
+    left: 20%;
+  }
+  #player5 {
+    top: 35%;
+    left: 79%;
+  }
+  #player6 {
+    top: 40%;
+    left: 57%;
+  }
+  #player7 {
+    top: 40%;
+    left: 29%;
+  }
+  #player8 {
+    top: 35%;
+    left: 7%;
+  }
+  #player9 {
+    top: 10%;
+    left: 73%;
+  }
+
+  #player10 {
+    top: 7%;
+    left: 43%;
+  }
+
+  #player11 {
+    top: 10%;
+    left: 13%;
+  }
+}
+
+.formation-41212-narrow {
+  #player1 {
+    top: 77%;
+    left: 43%;
+  }
+
+  #player2 {
+    top: 60%;
+    left: 79%;
+  }
+  #player3 {
+    top: 63%;
+    left: 59%;
+  }
+  #player4 {
+    top: 63%;
+    left: 27%;
+  }
+  #player5 {
+    top: 60%;
+    left: 7%;
+  }
+  #player6 {
+    top: 47%;
+    left: 43%;
+  }
+  #player7 {
+    top: 33%;
+    left: 61%;
+  }
+  #player8 {
+    top: 33%;
+    left: 25%;
+  }
+  #player9 {
+    top: 20%;
+    left: 43%;
+  }
+
+  #player10 {
+    top: 7%;
+    left: 59%;
+  }
+
+  #player11 {
+    top: 7%;
+    left: 27%;
+  }
+}
+
+.formation-41212-diamond {
+  #player1 {
+    top: 77%;
+    left: 43%;
+  }
+
+  #player2 {
+    top: 60%;
+    left: 79%;
+  }
+  #player3 {
+    top: 63%;
+    left: 59%;
+  }
+  #player4 {
+    top: 63%;
+    left: 27%;
+  }
+  #player5 {
+    top: 60%;
+    left: 7%;
+  }
+  #player6 {
+    top: 47%;
+    left: 43%;
+  }
+  #player7 {
+    top: 33%;
+    left: 76%;
+  }
+  #player8 {
+    top: 33%;
+    left: 10%;
+  }
+  #player9 {
+    top: 20%;
+    left: 43%;
+  }
+
+  #player10 {
+    top: 7%;
+    left: 59%;
+  }
+
+  #player11 {
+    top: 7%;
+    left: 27%;
+  }
+}
+
+.formation-4132 {
+  #player1 {
+    top: 77%;
+    left: 43%;
+  }
+
+  #player2 {
+    top: 60%;
+    left: 79%;
+  }
+  #player3 {
+    top: 63%;
+    left: 59%;
+  }
+  #player4 {
+    top: 63%;
+    left: 27%;
+  }
+  #player5 {
+    top: 60%;
+    left: 7%;
+  }
+  #player6 {
+    top: 50%;
+    left: 43%;
+  }
+  #player7 {
+    top: 27%;
+    left: 73%;
+  }
+  #player8 {
+    top: 30%;
+    left: 43%;
+  }
+  #player9 {
+    top: 27%;
+    left: 13%;
+  }
+
+  #player10 {
+    top: 7%;
+    left: 63%;
+  }
+
+  #player11 {
+    top: 7%;
+    left: 23%;
+  }
+}
+
+.formation-4141 {
+  #player1 {
+    top: 77%;
+    left: 43%;
+  }
+
+  #player2 {
+    top: 60%;
+    left: 79%;
+  }
+  #player3 {
+    top: 63%;
+    left: 59%;
+  }
+  #player4 {
+    top: 63%;
+    left: 27%;
+  }
+  #player5 {
+    top: 60%;
+    left: 7%;
+  }
+  #player6 {
+    top: 47%;
+    left: 43%;
+  }
+  #player7 {
+    top: 27%;
+    left: 79%;
+  }
+  #player8 {
+    top: 27%;
+    left: 56%;
+  }
+  #player9 {
+    top: 27%;
+    left: 30%;
+  }
+
+  #player10 {
+    top: 27%;
+    left: 7%;
+  }
+
+  #player11 {
+    top: 7%;
+    left: 43%;
+  }
+}
+
+.formation-4213 {
+  #player1 {
+    top: 77%;
+    left: 43%;
+  }
+
+  #player2 {
+    top: 60%;
+    left: 79%;
+  }
+  #player3 {
+    top: 63%;
+    left: 59%;
+  }
+  #player4 {
+    top: 63%;
+    left: 27%;
+  }
+  #player5 {
+    top: 60%;
+    left: 7%;
+  }
+  #player6 {
+    top: 43%;
+    left: 59%;
+  }
+  #player7 {
+    top: 43%;
+    left: 27%;
+  }
+  #player8 {
+    top: 27%;
+    left: 43%;
+  }
+  #player9 {
+    top: 10%;
+    left: 73%;
+  }
+
+  #player10 {
+    top: 7%;
+    left: 43%;
+  }
+
+  #player11 {
+    top: 10%;
+    left: 13%;
+  }
+}
+
+.formation-4222 {
+  #player1 {
+    top: 77%;
+    left: 43%;
+  }
+
+  #player2 {
+    top: 60%;
+    left: 79%;
+  }
+  #player3 {
+    top: 63%;
+    left: 59%;
+  }
+  #player4 {
+    top: 63%;
+    left: 27%;
+  }
+  #player5 {
+    top: 60%;
+    left: 7%;
+  }
+  #player6 {
+    top: 43%;
+    left: 59%;
+  }
+  #player7 {
+    top: 43%;
+    left: 27%;
+  }
+  #player8 {
+    top: 25%;
+    left: 71%;
+  }
+  #player9 {
+    top: 25%;
+    left: 15%;
+  }
+
+  #player10 {
+    top: 7%;
+    left: 59%;
+  }
+
+  #player11 {
+    top: 7%;
+    left: 27%;
+  }
+}
+
+.formation-4231 {
+  #player1 {
+    top: 77%;
+    left: 43%;
+  }
+
+  #player2 {
+    top: 60%;
+    left: 79%;
+  }
+  #player3 {
+    top: 63%;
+    left: 59%;
+  }
+  #player4 {
+    top: 63%;
+    left: 27%;
+  }
+  #player5 {
+    top: 60%;
+    left: 7%;
+  }
+  #player6 {
+    top: 43%;
+    left: 59%;
+  }
+  #player7 {
+    top: 43%;
+    left: 27%;
+  }
+  #player8 {
+    top: 25%;
+    left: 79%;
+  }
+  #player9 {
+    top: 27%;
+    left: 43%;
+  }
+
+  #player10 {
+    top: 25%;
+    left: 7%;
+  }
+
+  #player11 {
+    top: 7%;
+    left: 43%;
+  }
+}
+
+.formation-424 {
+  #player1 {
+    top: 77%;
+    left: 43%;
+  }
+
+  #player2 {
+    top: 60%;
+    left: 79%;
+  }
+  #player3 {
+    top: 63%;
+    left: 59%;
+  }
+  #player4 {
+    top: 63%;
+    left: 27%;
+  }
+  #player5 {
+    top: 60%;
+    left: 7%;
+  }
+  #player6 {
+    top: 35%;
+    left: 59%;
+  }
+  #player7 {
+    top: 35%;
+    left: 27%;
+  }
+  #player8 {
+    top: 15%;
+    left: 76%;
+  }
+  #player9 {
+    top: 7%;
+    left: 59%;
+  }
+
+  #player10 {
+    top: 7%;
+    left: 27%;
+  }
+
+  #player11 {
+    top: 15%;
+    left: 10%;
+  }
+}
+
+.formation-4312 {
+  #player1 {
+    top: 77%;
+    left: 43%;
+  }
+
+  #player2 {
+    top: 60%;
+    left: 79%;
+  }
+  #player3 {
+    top: 63%;
+    left: 59%;
+  }
+  #player4 {
+    top: 63%;
+    left: 27%;
+  }
+  #player5 {
+    top: 60%;
+    left: 7%;
+  }
+  #player6 {
+    top: 38%;
+    left: 63%;
+  }
+  #player7 {
+    top: 43%;
+    left: 43%;
+  }
+  #player8 {
+    top: 38%;
+    left: 23%;
+  }
+  #player9 {
+    top: 20%;
+    left: 43%;
+  }
+
+  #player10 {
+    top: 7%;
+    left: 59%;
+  }
+
+  #player11 {
+    top: 7%;
+    left: 27%;
+  }
+}
+
+.formation-4321 {
+  #player1 {
+    top: 77%;
+    left: 43%;
+  }
+
+  #player2 {
+    top: 60%;
+    left: 79%;
+  }
+  #player3 {
+    top: 63%;
+    left: 59%;
+  }
+  #player4 {
+    top: 63%;
+    left: 27%;
+  }
+  #player5 {
+    top: 60%;
+    left: 7%;
+  }
+  #player6 {
+    top: 38%;
+    left: 63%;
+  }
+  #player7 {
+    top: 43%;
+    left: 43%;
+  }
+  #player8 {
+    top: 38%;
+    left: 23%;
+  }
+  #player9 {
+    top: 17%;
+    left: 25%;
+  }
+
+  #player10 {
+    top: 17%;
+    left: 61%;
+  }
+
+  #player11 {
+    top: 7%;
+    left: 43%;
+  }
 }
 
 .formation-433 {
@@ -69,6 +769,455 @@
   #player11 {
     top: 10%;
     left: 13%;
+  }
+}
+
+.formation-433-def {
+  #player1 {
+    top: 77%;
+    left: 43%;
+  }
+
+  #player2 {
+    top: 60%;
+    left: 79%;
+  }
+  #player3 {
+    top: 63%;
+    left: 59%;
+  }
+  #player4 {
+    top: 63%;
+    left: 27%;
+  }
+  #player5 {
+    top: 60%;
+    left: 7%;
+  }
+  #player6 {
+    top: 47%;
+    left: 43%;
+  }
+  #player7 {
+    top: 38%;
+    left: 63%;
+  }
+  #player8 {
+    top: 38%;
+    left: 23%;
+  }
+  #player9 {
+    top: 10%;
+    left: 73%;
+  }
+
+  #player10 {
+    top: 7%;
+    left: 43%;
+  }
+
+  #player11 {
+    top: 10%;
+    left: 13%;
+  }
+}
+
+.formation-433-atk {
+  #player1 {
+    top: 77%;
+    left: 43%;
+  }
+
+  #player2 {
+    top: 60%;
+    left: 79%;
+  }
+  #player3 {
+    top: 63%;
+    left: 59%;
+  }
+  #player4 {
+    top: 63%;
+    left: 27%;
+  }
+  #player5 {
+    top: 60%;
+    left: 7%;
+  }
+  #player6 {
+    top: 47%;
+    left: 43%;
+  }
+  #player7 {
+    top: 30%;
+    left: 63%;
+  }
+  #player8 {
+    top: 30%;
+    left: 23%;
+  }
+  #player9 {
+    top: 10%;
+    left: 73%;
+  }
+
+  #player10 {
+    top: 7%;
+    left: 43%;
+  }
+
+  #player11 {
+    top: 10%;
+    left: 13%;
+  }
+}
+
+.formation-4411 {
+  #player1 {
+    top: 77%;
+    left: 43%;
+  }
+
+  #player2 {
+    top: 60%;
+    left: 79%;
+  }
+  #player3 {
+    top: 63%;
+    left: 59%;
+  }
+  #player4 {
+    top: 63%;
+    left: 27%;
+  }
+  #player5 {
+    top: 60%;
+    left: 7%;
+  }
+  #player6 {
+    top: 35%;
+    left: 79%;
+  }
+  #player7 {
+    top: 43%;
+    left: 29%;
+  }
+  #player8 {
+    top: 43%;
+    left: 57%;
+  }
+  #player9 {
+    top: 35%;
+    left: 7%;
+  }
+
+  #player10 {
+    top: 27%;
+    left: 43%;
+  }
+
+  #player11 {
+    top: 7%;
+    left: 43%;
+  }
+}
+
+.formation-442 {
+  #player1 {
+    top: 77%;
+    left: 43%;
+  }
+
+  #player2 {
+    top: 60%;
+    left: 79%;
+  }
+  #player3 {
+    top: 63%;
+    left: 59%;
+  }
+  #player4 {
+    top: 63%;
+    left: 27%;
+  }
+  #player5 {
+    top: 60%;
+    left: 7%;
+  }
+  #player6 {
+    top: 35%;
+    left: 79%;
+  }
+  #player7 {
+    top: 38%;
+    left: 29%;
+  }
+  #player8 {
+    top: 38%;
+    left: 57%;
+  }
+  #player9 {
+    top: 35%;
+    left: 7%;
+  }
+
+  #player10 {
+    top: 7%;
+    left: 59%;
+  }
+
+  #player11 {
+    top: 7%;
+    left: 27%;
+  }
+}
+
+.formation-451 {
+  #player1 {
+    top: 77%;
+    left: 43%;
+  }
+
+  #player2 {
+    top: 60%;
+    left: 79%;
+  }
+  #player3 {
+    top: 63%;
+    left: 59%;
+  }
+  #player4 {
+    top: 63%;
+    left: 27%;
+  }
+  #player5 {
+    top: 60%;
+    left: 5%;
+  }
+  #player6 {
+    top: 35%;
+    left: 81%;
+  }
+  #player7 {
+    top: 38%;
+    left: 63%;
+  }
+  #player8 {
+    top: 43%;
+    left: 43%;
+  }
+  #player9 {
+    top: 38%;
+    left: 23%;
+  }
+  #player10 {
+    top: 35%;
+    left: 5%;
+  }
+
+  #player11 {
+    top: 7%;
+    left: 43%;
+  }
+}
+
+.formation-5212 {
+  #player1 {
+    top: 80%;
+    left: 43%;
+  }
+
+  #player2 {
+    top: 55%;
+    left: 81%;
+  }
+  #player3 {
+    top: 60%;
+    left: 63%;
+  }
+  #player4 {
+    top: 60%;
+    left: 43%;
+  }
+  #player5 {
+    top: 60%;
+    left: 23%;
+  }
+  #player6 {
+    top: 55%;
+    left: 5%;
+  }
+  #player7 {
+    top: 38%;
+    left: 61%;
+  }
+  #player8 {
+    top: 38%;
+    left: 25%;
+  }
+  #player9 {
+    top: 25%;
+    left: 43%;
+  }
+
+  #player10 {
+    top: 7%;
+    left: 59%;
+  }
+
+  #player11 {
+    top: 7%;
+    left: 27%;
+  }
+}
+
+.formation-523 {
+  #player1 {
+    top: 80%;
+    left: 43%;
+  }
+
+  #player2 {
+    top: 55%;
+    left: 81%;
+  }
+  #player3 {
+    top: 60%;
+    left: 63%;
+  }
+  #player4 {
+    top: 60%;
+    left: 43%;
+  }
+  #player5 {
+    top: 60%;
+    left: 23%;
+  }
+  #player6 {
+    top: 55%;
+    left: 5%;
+  }
+  #player7 {
+    top: 33%;
+    left: 61%;
+  }
+  #player8 {
+    top: 33%;
+    left: 25%;
+  }
+  #player9 {
+    top: 10%;
+    left: 73%;
+  }
+
+  #player10 {
+    top: 7%;
+    left: 43%;
+  }
+
+  #player11 {
+    top: 10%;
+    left: 13%;
+  }
+}
+
+.formation-532 {
+  #player1 {
+    top: 80%;
+    left: 43%;
+  }
+
+  #player2 {
+    top: 55%;
+    left: 81%;
+  }
+  #player3 {
+    top: 60%;
+    left: 63%;
+  }
+  #player4 {
+    top: 60%;
+    left: 43%;
+  }
+  #player5 {
+    top: 60%;
+    left: 23%;
+  }
+  #player6 {
+    top: 55%;
+    left: 5%;
+  }
+  #player7 {
+    top: 33%;
+    left: 63%;
+  }
+  #player8 {
+    top: 38%;
+    left: 43%;
+  }
+  #player9 {
+    top: 33%;
+    left: 23%;
+  }
+
+  #player10 {
+    top: 7%;
+    left: 59%;
+  }
+
+  #player11 {
+    top: 7%;
+    left: 27%;
+  }
+}
+
+.formation-541 {
+  #player1 {
+    top: 80%;
+    left: 43%;
+  }
+
+  #player2 {
+    top: 55%;
+    left: 81%;
+  }
+  #player3 {
+    top: 60%;
+    left: 63%;
+  }
+  #player4 {
+    top: 60%;
+    left: 43%;
+  }
+  #player5 {
+    top: 60%;
+    left: 23%;
+  }
+  #player6 {
+    top: 55%;
+    left: 5%;
+  }
+  #player7 {
+    top: 30%;
+    left: 79%;
+  }
+  #player8 {
+    top: 33%;
+    left: 56%;
+  }
+  #player9 {
+    top: 33%;
+    left: 30%;
+  }
+
+  #player10 {
+    top: 30%;
+    left: 7%;
+  }
+
+  #player11 {
+    top: 7%;
+    left: 43%;
   }
 }
 

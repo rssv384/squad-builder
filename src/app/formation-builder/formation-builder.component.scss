@@ -8,8 +8,19 @@
 }
 
 .menu-container {
-  // border: 1px dashed white;
   width: 360px;
+  padding: 1rem 3rem;
+}
+
+select {
+  width: 264px;
+  font: inherit;
+  border: none;
+  background-color: variables.$bg-light;
+  color: variables.$font-color;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
 }
 
 .pitch-container {
@@ -17,6 +28,12 @@
   height: 100%;
   display: flex;
   justify-content: center;
+}
+
+.menu-container,
+.pitch-container {
+  background-color: variables.$bg-dark;
+  border-radius: 1rem;
 }
 
 @media (max-width: 1024px) {
