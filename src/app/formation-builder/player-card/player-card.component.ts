@@ -9,10 +9,6 @@ import { Position } from '../formation.model';
 })
 export class PlayerCardComponent {
   playerPosition = input.required<Position>();
-
-  player = {
-    name: 'Johan Cruyff',
-    displayName: 'Cruyff',
-    rating: 96,
-  };
+  playerName = input<string>('---');
+  playerNumber = input.required<number>();
 }

@@ -1,18 +1,12 @@
 <div class="card-wrapper" role="button">
   <div class="player-card">
-    <img class="player-card-bg" src="/player-card.png" />
-    <div class="player-img-wrapper">
-      <img class="player-img" src="/player.png" alt="" />
-    </div>
+    <img class="player-card-bg" src="/player-shirt.png" />
+    <!-- <div class="player-num-wrapper"> -->
+    <p class="player-num">{{ playerNumber() }}</p>
+    <!-- </div> -->
   </div>
-  <div class="player-rating-pos-wrapper">
-    <p class="rating">{{ player.rating }}</p>
-    <p class="position">{{ playerPosition() }}</p>
-  </div>
-  <div class="player-name">
-    <p>{{ player.displayName }}</p>
-  </div>
-  <div class="player-team">
-    <img src="/team_logo.png" alt="" />
+  <div class="player-pos-name-wrapper">
+    <p class="player-pos">{{ playerPosition() }}</p>
+    <p class="player-name">{{ playerName() }}</p>
   </div>
 </div>

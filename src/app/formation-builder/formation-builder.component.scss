@@ -9,7 +9,14 @@
 
 .menu-container {
   width: 360px;
-  padding: 1rem 3rem;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h3 {
+    margin-bottom: 0;
+  }
 }
 
 select {
@@ -48,3 +55,9 @@ select {
     width: 100%;
   }
 }
+
+// @media (max-width: 768px) {
+//   select {
+//     width: 80%;
+//   }
+// }

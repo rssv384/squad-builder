@@ -1,11 +1,15 @@
+@use "../../shared/styles/variables";
+
 .card-wrapper {
   justify-content: center;
 }
+
 .player-card {
   --card-width: 112px;
   width: var(--card-width);
   max-width: var(--card-width);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -16,84 +20,68 @@
 
 .player-card-bg {
   width: 100%;
+  // height: 85%;
 }
 
-.player-img-wrapper {
-  width: 75%;
-  height: 55%;
-  top: 12%;
-  left: 15%;
+.player-num {
+  width: 45%;
+  top: 32%;
+  left: 27%;
   position: absolute;
-  overflow-clip-margin: content-box;
-  overflow: clip;
   border-radius: 10px;
-}
-
-.player-img {
-  width: 100%;
-}
-
-p {
-  color: #423f39;
-  font-weight: bold;
+  font-size: 2.3rem;
   padding: 0;
   margin: 0;
 }
 
-.player-rating-pos-wrapper {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+.player-pos-name-wrapper {
+  width: 112px;
   position: absolute;
-  top: 15%;
-  left: 13%;
+  top: 70%;
+  // left: 10%;
+  background-color: #423f39;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  // font-size: 1rem;
+  border: 1px solid variables.$highlight-color;
+  border-radius: 16px;
+  padding: 0 6px;
 }
 
-.rating {
-  font-size: 1.2rem;
+.player-name,
+.player-pos {
+  text-align: center;
+  margin: 6px 0;
+  font-size: 0.9rem;
 }
 
-.position {
-  font-size: 0.7rem;
+.player-pos {
+  font-weight: bold;
+  max-height: fit-content;
+  color: hotpink;
 }
 
 .player-name {
-  width: 80%;
-  position: absolute;
-  top: 67%;
-  left: 10%;
-  text-align: center;
-  font-size: 0.8rem;
-}
-
-.player-team {
-  width: 16px;
-  height: 16px;
-  position: absolute;
-  top: 80%;
-  left: 43%;
-
-  img {
-    width: 100%;
-  }
+  width: 70%;
+  max-width: 70%;
+  word-wrap: break-word;
 }
 
 @media (max-width: 768px) {
-  .player-card {
-    --card-width: 64px;
-    width: var(--card-width);
-    max-width: var(--card-width);
-  }
+  // .player-card {
+  //   --card-width: 64px;
+  //   width: var(--card-width);
+  //   max-width: var(--card-width);
+  // }
 
-  .rating {
-    font-size: 0.7rem;
-  }
+  // .player-num {
+  //   font-size: 1.3rem;
+  // }
 
-  .position {
-    font-size: 0.3rem;
-  }
-
-  .player-name {
-    font-size: 0.5rem;
-  }
+  // .player-pos,
+  // .player-name {
+  //   font-size: 1rem;
+  // }
 }
