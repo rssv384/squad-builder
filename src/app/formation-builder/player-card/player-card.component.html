@@ -1,12 +1,21 @@
-<div class="card-wrapper" role="button">
+<div class="card-wrapper" role="button" (click)="onEditPlayer()">
   <div class="player-card">
     <img class="player-card-bg" src="/player-shirt.png" />
-    <!-- <div class="player-num-wrapper"> -->
-    <p class="player-num">{{ playerNumber() }}</p>
-    <!-- </div> -->
+    @if (playerNumber() == 0) {
+      <p class="player-num">+</p>
+    } @else {
+      <p class="player-num">{{ playerNumber() }}</p>
+    }
   </div>
   <div class="player-pos-name-wrapper">
     <p class="player-pos">{{ playerPosition() }}</p>
     <p class="player-name">{{ playerName() }}</p>
   </div>
 </div>
+@if (isEditingPlayer()) {
+  <app-edit-player-form
+    [playerData]="playerData"
+    (saved)="onDataChanged($event)"
+    (editCanceled)="onEditCanceled()"
+  ></app-edit-player-form>
+}

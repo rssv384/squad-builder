@@ -2,10 +2,7 @@
   <img class="pitch-bg" src="/pitch.svg" alt="" />
   @for (pos of formation().positions; track $index) {
     <div id="player{{ $index + 1 }}" class="absolute">
-      <app-player-card
-        [playerPosition]="pos"
-        [playerNumber]="$index + 1"
-      ></app-player-card>
+      <app-player-card [playerPosition]="pos"></app-player-card>
     </div>
   }
 </div>

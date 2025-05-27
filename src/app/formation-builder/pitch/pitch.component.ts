@@ -11,4 +11,8 @@ import { PlayerCardComponent } from '../player-card/player-card.component';
 })
 export class PitchComponent {
   formation = input.required<Formation>();
+
+  // get positions() {
+  //   return this.formation().positions
+  // }
 }
