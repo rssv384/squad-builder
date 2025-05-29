@@ -11,7 +11,7 @@ import { EditPlayerFormComponent } from './edit-player-form/edit-player-form.com
 export class PlayerCardComponent {
   playerPosition = input.required<Position>();
 
-  playerName = signal<string>('---');
+  playerName = signal<string>('-');
   // Initial value of 0, meaning that no player has been added to the squad
   // Shirt nums go from 1 to 99. When shirt num = 0, a '+' sign will be
   // displayed on the shirt

@@ -31,7 +31,6 @@ h2 {
 label {
   display: block;
   font-weight: bold;
-  // margin-bottom: 0.5rem;
   margin: 2rem 0 0.5rem 0;
 }
 
@@ -80,4 +79,10 @@ button {
   &[type="submit"]:hover {
     background-color: hotpink;
   }
+}
+
+.input-error {
+  color: indianred;
+  font-size: 0.9rem;
+  font-style: italic;
 }

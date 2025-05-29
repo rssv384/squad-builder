@@ -1,7 +1,12 @@
 <div class="backdrop" role="button">
   <div class="form-container">
     <h2>Edit Player</h2>
-    <form (ngSubmit)="onSubmit()">
+    <form
+      name="form"
+      #editForm="ngForm"
+      (keydown.enter)="editForm.form.valid && onSubmit()"
+      (ngSubmit)="editForm.form.valid && onSubmit()"
+    >
       <p>
         <label for="player-name">Name</label>
         <input
@@ -10,8 +15,12 @@
           name="player-name"
           required
           [(ngModel)]="enteredName"
+          #playerName="ngModel"
         />
       </p>
+      @if (playerName.dirty && playerName.invalid) {
+        <p class="input-error">Name field cannot be empty.</p>
+      }
 
       <p>
         <label for="shirt-number">Shirt Number</label>
@@ -23,8 +32,14 @@
           max="99"
           required
           [(ngModel)]="enteredNumber"
+          #playerNum="ngModel"
         />
       </p>
+      @if (playerNum.invalid) {
+        <p class="input-error">
+          Player's shirt number must be between 1 and 99.
+        </p>
+      }
 
       <p class="actions">
         <button (click)="onCancel()">Cancel</button>
