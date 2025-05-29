@@ -1,16 +1,22 @@
 <div class="container">
   <div class="menu-container">
     <!-- MENU -->
-    <h3>FORMATION</h3>
-    <p>
-      <select (change)="onFormationChange(formation.value)" #formation>
-        @for (formation of allFormations; track formation.id) {
-          <option [value]="formation.id">{{ formation.name }}</option>
-        }
-      </select>
-    </p>
+    <div class="formation-selector">
+      <h3>FORMATION</h3>
+      <p>
+        <select (change)="onFormationChange(formation.value)" #formation>
+          @for (formation of allFormations; track formation.id) {
+            <option [value]="formation.id">{{ formation.name }}</option>
+          }
+        </select>
+      </p>
+    </div>
+    <div class="actions">
+      <button (click)="saveToPNG()">Save as PNG</button>
+      <button (click)="saveToJPEG()">Save as JPEG</button>
+    </div>
   </div>
-  <div class="pitch-container">
+  <div #formationViewer class="pitch-container">
     <!-- FORMATION VIEWER -->
     <app-pitch [formation]="selectedFormation()"></app-pitch>
   </div>

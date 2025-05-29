@@ -5,7 +5,7 @@
 }
 
 .backdrop {
-  background-color: rgba(15, 15, 15, 0.6);
+  background-color: rgba(15, 15, 15, 0.5);
   position: fixed;
   top: variables.$header-height;
   left: 0;
@@ -16,10 +16,10 @@
 .form-container {
   width: 264px;
   max-width: 264px;
-  background-color: variables.$bg-light;
+  background-color: variables.$bg-dark;
   border-radius: 6px;
   box-shadow: 0 1px 3px variables.$highlight-color;
-  padding: 1rem;
+  padding: 1.5rem;
   margin: 25vh auto;
 }
 
@@ -31,7 +31,8 @@ h2 {
 label {
   display: block;
   font-weight: bold;
-  margin-bottom: 0.5rem;
+  // margin-bottom: 0.5rem;
+  margin: 2rem 0 0.5rem 0;
 }
 
 input {
@@ -59,28 +60,24 @@ input {
 button {
   font: inherit;
   cursor: pointer;
-  border: none;
+  border: 1px solid variables.$highlight-color;
   padding: 0.35rem 1.25rem;
   border-radius: 4px;
   background-color: transparent;
-  color: variables.$font-color;
-}
+  color: variables.$highlight-color;
 
-a {
-  color: variables.$font-color;
-  text-decoration: none;
-}
+  &:hover {
+    background-color: variables.$bg-light;
+  }
 
-a:hover,
-a:active {
-  color: #d0c2e1;
-}
+  &[type="submit"] {
+    border: none;
+    color: variables.$font-color;
+    background-color: variables.$highlight-color;
+    font-weight: bold;
+  }
 
-button[type="submit"] {
-  background-color: variables.$highlight-color;
-}
-
-button[type="submit"]:hover,
-button[type="submit"]:active {
-  background-color: hotpink;
+  &[type="submit"]:hover {
+    background-color: hotpink;
+  }
 }
