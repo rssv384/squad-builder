@@ -1,11 +1,9 @@
-@use "../shared/styles/variables";
-
 header {
-  height: variables.$header-height;
+  height: var(--header-height);
   width: 100%;
-  background-color: variables.$bg-dark;
+  background-color: var(--bg-dark);
   padding: 1rem 0;
-  border-bottom: thin solid variables.$highlight-color;
+  border-bottom: thin solid var(--highlight-color);
   text-align: center;
 
   // Fixed position, always on top

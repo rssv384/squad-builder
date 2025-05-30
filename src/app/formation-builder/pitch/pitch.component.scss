@@ -1,11 +1,9 @@
-@use "../../shared/styles/variables";
-
 .pitch {
   width: 768px;
   max-width: 768px;
   height: 768px;
   max-height: 768px;
-  background-color: variables.$bg-dark;
+  background-color: var(--bg-dark);
   border-radius: 1rem;
   padding: 0;
   position: relative;

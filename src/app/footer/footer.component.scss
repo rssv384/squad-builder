@@ -1,8 +1,6 @@
-@use "../shared/styles/variables";
-
 footer {
-  background-color: variables.$bg-dark;
-  border-top: 1px solid variables.$highlight-color;
+  background-color: var(--bg-dark);
+  border-top: 1px solid var(--highlight-color);
   padding: 1.5rem 0;
   display: flex;
   flex-direction: column;
@@ -30,7 +28,7 @@ p {
 
 a {
   text-decoration: none;
-  color: variables.$highlight-color;
+  color: var(--highlight-color);
 
   &:hover {
     color: hotpink;

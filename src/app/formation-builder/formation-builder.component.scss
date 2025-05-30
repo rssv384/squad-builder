@@ -1,5 +1,3 @@
-@use "../shared/styles/variables";
-
 .container {
   display: flex;
   flex-direction: row;
@@ -25,7 +23,7 @@
 
 .menu-container,
 .pitch-container {
-  background-color: variables.$bg-dark;
+  background-color: var(--bg-dark);
   border-radius: 1rem;
 }
 
@@ -40,8 +38,8 @@
     width: 264px;
     font: inherit;
     border: none;
-    background-color: variables.$bg-light;
-    color: variables.$font-color;
+    background-color: var(--bg-light);
+    color: var(--font-color);
     font-size: 1rem;
     padding: 0.5rem;
     border-radius: 0.25rem;
@@ -63,8 +61,8 @@
     border: none;
     padding: 0.5rem 1rem;
     border-radius: 4px;
-    color: variables.$font-color;
-    background-color: variables.$highlight-color;
+    color: var(--font-color);
+    background-color: var(--highlight-color);
 
     &:hover {
       background-color: hotpink;
