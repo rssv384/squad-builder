@@ -19,6 +19,18 @@
   aspect-ratio: 0.75;
 }
 
+g {
+  fill: variables.$highlight-color;
+}
+
+// Different style for goalkeeper
+.gk {
+  color: #ec118f;
+  g {
+    fill: white;
+  }
+}
+
 .player-card-bg {
   width: 100%;
 }
@@ -30,6 +42,7 @@
   position: absolute;
   border-radius: 10px;
   font-size: 2.5rem;
+  font-weight: bold;
   padding: 0;
   margin: 0;
 }

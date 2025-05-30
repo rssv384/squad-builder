@@ -13,13 +13,17 @@
           type="text"
           id="player-name"
           name="player-name"
+          maxlength="20"
           required
           [(ngModel)]="enteredName"
           #playerName="ngModel"
         />
       </p>
       @if (playerName.dirty && playerName.invalid) {
-        <p class="input-error">Name field cannot be empty.</p>
+        <p class="input-error">
+          Name field cannot be empty and must contain a maximum of 20
+          characters.
+        </p>
       }
 
       <p>

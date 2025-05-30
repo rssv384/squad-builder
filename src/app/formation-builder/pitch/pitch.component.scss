@@ -23,19 +23,10 @@
 }
 
 // === REPEATED POSITIONS ===
-// GK WHEN PLAYING 3 OR 5 AT THE BACK
-.formation-352,
-.formation-3412,
-.formation-3421,
-.formation-343,
-.formation-5212,
-.formation-523,
-.formation-532,
-.formation-541 {
-  #player1 {
-    top: 80%;
-    left: 43%;
-  }
+// GK
+#player1 {
+  top: 77%;
+  left: 43%;
 }
 
 // DEFENDERS WHEN PLAYING 3 AT THE BACK
@@ -77,10 +68,6 @@
 .formation-4411,
 .formation-442,
 .formation-451 {
-  #player1 {
-    top: 77%;
-    left: 43%;
-  }
   // RB
   #player2 {
     top: 60%;

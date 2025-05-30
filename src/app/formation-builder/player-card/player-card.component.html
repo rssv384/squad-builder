@@ -1,6 +1,24 @@
 <div class="card-wrapper" role="button" (click)="onEditPlayer()">
-  <div class="player-card">
-    <img class="player-card-bg" src="/player-shirt.png" />
+  <div class="player-card {{ playerPosition().toLowerCase() }}">
+    <svg
+      version="1.0"
+      xmlns="http://www.w3.org/2000/svg"
+      width="78.000000pt"
+      height="75.000000pt"
+      viewBox="0 0 78.000000 75.000000"
+      preserveAspectRatio="xMidYMid meet"
+    >
+      <g transform="translate(0.000000,60.000000) scale(0.100000,-0.100000)">
+        <path
+          d="M100 455 l-95 -95 67 -67 67 -67 26 24 25 23 0 -131 0 -132 200 0
+200 0 0 132 0 131 25 -23 26 -24 67 67 67 67 -95 95 -95 95 -65 0 c-53 0 -69
+-4 -83 -20 -10 -12 -29 -20 -47 -20 -18 0 -37 8 -47 20 -14 16 -30 20 -83 20
+l-65 0 -95 -95z"
+        />
+      </g>
+    </svg>
+
+    <!-- <img class="player-card-bg" src="/kit.png" /> -->
     @if (playerNumber() == 0) {
       <p class="player-num">+</p>
     } @else {
