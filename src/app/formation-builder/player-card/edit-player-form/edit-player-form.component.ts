@@ -2,11 +2,10 @@ import {
   AfterContentInit,
   Component,
   input,
-  OnInit,
   output,
   signal,
 } from '@angular/core';
-import { FormsModule, NgForm } from '@angular/forms';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-edit-player-form',

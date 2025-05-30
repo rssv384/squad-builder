@@ -1,4 +1,3 @@
-import { KeyValuePipe } from '@angular/common';
 import { Component, input } from '@angular/core';
 import { Formation } from '../formation.model';
 import { PlayerCardComponent } from '../player-card/player-card.component';
@@ -11,8 +10,4 @@ import { PlayerCardComponent } from '../player-card/player-card.component';
 })
 export class PitchComponent {
   formation = input.required<Formation>();
-
-  // get positions() {
-  //   return this.formation().positions
-  // }
 }

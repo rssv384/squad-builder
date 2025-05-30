@@ -21,18 +21,22 @@ export class PlayerCardComponent {
     return { playerName: this.playerName(), shirtNumber: this.playerNumber() };
   }
 
+  // signal used as a flag to show/hide EditForm
   isEditingPlayer = signal<boolean>(false);
 
+  // Trigger editing functionality by updating signal
   onEditPlayer() {
     this.isEditingPlayer.set(true);
   }
 
+  // Update player data and close form
   onDataChanged(newData: { playerName: string; shirtNumber: number }) {
     this.playerName.set(newData.playerName);
     this.playerNumber.set(newData.shirtNumber);
     this.isEditingPlayer.set(false);
   }
 
+  // Close form
   onEditCanceled() {
     this.isEditingPlayer.set(false);
   }
