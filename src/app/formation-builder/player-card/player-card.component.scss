@@ -17,6 +17,7 @@
   position: relative;
   isolation: isolate;
   aspect-ratio: 0.75;
+  user-select: none;
 }
 
 g {
@@ -55,6 +56,7 @@ g {
   border: 1px solid variables.$highlight-color;
   border-radius: 16px;
   padding: 0 6px;
+  user-select: none;
 }
 
 .player-name,
